@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android4"
+    tools:context=".SYMPTOM">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="302dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="25dp"
+                android:fontFamily="@font/modak"
+                android:gravity="center"
+                android:text="SYMPTOM OF STROKE"
+                android:textColor="#ffffff"
+                android:textSize="34sp" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="213dp"
+            android:layout_height="114dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:background="#ffffc2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="A ministroke is also known as a transient ischemic attack (TIA). It occurs when part of the brain experiences a temporary lack of blood flow. This causes stroke-like symptoms that resolve within 24 hours. Unlike a stroke, a ministroke on its own doesn't cause permanent disabilities"
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="235dp"
+            android:layout_height="109dp"
+            android:layout_below="@+id/text13"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="90dp"
+            android:background="#ffffc2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Stroke symptoms typically last more than 24 hours, and may or may not resolve, even with therapy. Some stroke symptoms may never resolve or get better. TIA symptoms last for a short time. Symptoms can begin to resolve in about 1 to 5 minutes, which is typical, but some may take about 24 hours to resolve."
+            android:textColor="@android:color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

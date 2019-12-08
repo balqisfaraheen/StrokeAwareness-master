@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.strokeawareness">
+
+    <uses-permission android:name="android.permissiom.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".hdlcholestrol" />
+        <activity android:name=".cholestrol" />
+        <activity android:name=".bloodsugar" />
+        <activity android:name=".bloodpressure" />
+        <activity android:name=".checkreading" />
+        <activity android:name=".check" />
+        <activity android:name=".recaptcha" />
+        <activity android:name=".privacy1" />
+        <activity android:name=".HistoryFragment2" />
+        <activity android:name=".quizlastpagee" />
+        <activity android:name=".startQuiz" />
+        <activity android:name=".simpleQuiz" />
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".video" />
+        <activity android:name=".furtherReading" />
+        <activity android:name=".ResultRisk" />
+        <activity android:name=".QuestionBank4" />
+        <activity android:name=".QuestionBank3" />
+        <activity android:name=".QuestionBank2" />
+        <activity android:name=".QuestionBank1" />
+        <activity android:name=".TYPEOFSTROKE" />
+        <activity android:name=".TREATMENT" />
+        <activity android:name=".SYMPTOM" />
+        <activity android:name=".FAST" />
+        <activity android:name=".FAQ1" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".Location" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".register" />
+        <activity android:name=".Login" />
+        <activity android:name=".Launch" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

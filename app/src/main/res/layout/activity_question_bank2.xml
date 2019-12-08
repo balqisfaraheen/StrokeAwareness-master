@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionBank2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Have you ever been diagnosed with ..... "
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="263dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="... any type of Renal/Kidney disease? "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/renalapa"
+                android:layout_width="15dp"
+                android:layout_height="19dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/tandaseru" />
+
+        </LinearLayout>
+
+
+
+        <RadioGroup
+        android:id="@+id/renalRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/renalRB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="...with diabetes? "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/diabetesapa"
+            android:layout_width="15dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tandaseru1" />
+
+    </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/diabetesRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/diabetesRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="..with congestive heart failure? "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/heartapa"
+            android:layout_width="15dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tandaseru" />
+
+    </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/heartRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/heartRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="..with peripheral arterial disease? "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/arterialapa"
+            android:layout_width="15dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tandaseru" />
+
+    </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/arterialRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/arterialRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="321dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="... with or received medication for high blood pressure? "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/bloodapa"
+            android:layout_width="15dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tandaseru" />
+
+    </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/bloodRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/bloodRB"
+                android:layout_width="363dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Yes"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="No"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="..with Ischemic Heart disease (e.g: myocardial infection or angina)? "
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ischemicapa"
+            android:layout_width="15dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/tandaseru" />
+
+    </LinearLayout>
+
+
+        <RadioGroup
+            android:id="@+id/ischemicRG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RadioButton
+                android:id="@+id/ischemicRB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textStyle="bold"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="12sp"/>
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/nextBT"
+            android:layout_width="206dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:background="#e9b44c"
+            android:text="Next"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

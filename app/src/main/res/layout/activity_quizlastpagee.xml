@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".quizlastpagee">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="90dp"
+        android:text="Thank you for answering the short quiz"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nextBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="50dp"
+        android:text="answer quiz again" />
+
+    <Button
+        android:id="@+id/quitBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="10dp"
+        android:text="Quit" />
+</LinearLayout>

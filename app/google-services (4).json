@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "556766342942",
+    "firebase_url": "https://strokeawareness-8bb3e.firebaseio.com",
+    "project_id": "strokeawareness-8bb3e",
+    "storage_bucket": "strokeawareness-8bb3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556766342942:android:a6154f102af71631e0e30f",
+        "android_client_info": {
+          "package_name": "com.example.strokeawareness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556766342942-n74f4k12letlmj5csdgt6t7c7cngeldp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.strokeawareness",
+            "certificate_hash": "fbb15d73ffc7615167e5474b06c5e5985a13a9d5"
+          }
+        },
+        {
+          "client_id": "556766342942-gsf9q4c3sbbqc5d8f059nt7ggoj967gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBErsfaThCZ5rEwjlEYUGG_mqQEAxniOuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556766342942-gsf9q4c3sbbqc5d8f059nt7ggoj967gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

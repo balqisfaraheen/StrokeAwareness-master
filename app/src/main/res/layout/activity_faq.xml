@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQ">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textSize="34sp"
+                android:layout_marginTop="10dp"
+                android:text="Frequent Question and Answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="25dp"
+            android:text="Q:What is a stroke?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:text="A:A stroke is a result of low oxygen or low blood flow to an area of the brain."
+            android:layout_width="wrap_content"
+            android:background="#e689a1"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="28dp"
+            android:text="Q:What is the most major risk factor for stroke?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:background="#e689a1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:text="A:The leading cause of stroke is high blood pressure (hypertension), making it the highest risk factor for stroke."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="28dp"
+            android:text="Other risk factors for stroke include:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:background="#e689a1"
+            android:text= "Smoking
+        - Diabetes
+        - High cholesterol
+        - Physical inactivity
+        - Obesity
+        - Artery disease
+        - Age over 65"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="28dp"
+            android:text="Q:Strokes rarely occur in people under 65. True or False?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:background="#e689a1"
+            android:text="A:False.
+While approximately two-thirds of strokes happen in people over age 65, people under age 65 can still have a stroke. Stroke risk does increase with age, but anyone at any age can have a stroke.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="28dp"
+            android:text="Q:More women die from stroke than men. True or false?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:background="#e689a1"
+            android:text="A:Stroke is the 3rd leading cause of death for women.
+Women tend to live longer than men, putting them at risk for several factors that can make a stroke more deadly. Women are more likely to live alone when they have a stroke, be more likely to live in a long-term health care facility after a stroke, and to have a worse recovery following a stroke.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="24sp"
+            android:layout_marginTop="28dp"
+            android:text="Q:What is the most common treatment for stroke?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_marginStart="20dp"
+            android:textSize="15sp"
+            android:background="#e689a1"
+            android:text="A:Blood thinners are the most common treatment for stroke.
+Blood thinners are used to treat acute stroke. The clotbuster drug used in emergency settings is called alteplase (Activase), also referred to as tPA (tissue plasminogen activator).
+Blood thinners are also used to prevent or decrease the risk of stroke in conditions such as heart disease, atrial fibrillation, heart valve disorders, hypercoagulable states, and previous cerebral vascular disease.
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

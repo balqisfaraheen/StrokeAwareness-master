@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">StrokeAwareness</string>
+    <string name="information">INFORMATION</string>
+    <string name="stroke_treatment">Stroke Treatment</string>
+    <string name="todo">TODO</string>
+    <string name="faq">FAQ</string>
+
+
+</resources>

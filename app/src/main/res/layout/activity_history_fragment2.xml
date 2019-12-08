@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/backk"
+    android:orientation="vertical">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/historyTV"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="80dp"
+                android:fontFamily="@font/bangers"
+                android:text="HISTORY"
+                android:textColor="#000000"
+                android:textSize="60dp" />
+
+
+            <ImageView
+                android:id="@+id/furtherIV"
+                android:layout_width="85dp"
+                android:layout_height="49dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/furtherreading" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/childA"
+            android:layout_width="300dp"
+            android:layout_height="417dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/custom_border">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="401dp"
+                android:layout_height="542dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/cardview_shadow_end_color"
+                android:scrollbars="none" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

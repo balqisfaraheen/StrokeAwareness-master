@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:text="List of stroke centre in Malaysia"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="307dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:text="National Stroke Association Of Malaysia (NASAM) , 12, Jalan 7/2, 46050, Petaling Jaya, Selangor, Pjs 7, 46050 Petaling Jaya, Selangor" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="314dp"
+            android:layout_height="96dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Buffbones -Chiropractic-Physiotherapy -Sports Rehab - Stroke Rehab center- Home physiotherapy, Menara Mitraland, Jalan PJU 5/1, Kota Damansara, 47810 Petaling Jaya, Selangor" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="319dp"
+            android:layout_height="97dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="National Stroke Association of Malaysia. Kompleks Badan-Badan Sukarela , Wisma Pandu Puteri , KM4 Jalan Tuaran , 88400 Kota Kinabalu, Sabah, 88400" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Stroke Rehab Malaysia, 19-1, Jalan Damai Niaga 1, Alam Damai, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="Nasam stroke center. 69,taman putra kulim 09000" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="333dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/textView3"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="National Stroke Association of Malaysia. 59, Jalan Cendera, Taman Serene, 80300 Johor Bahru, Johor" />
+
+    </LinearLayout>
+</ScrollView>

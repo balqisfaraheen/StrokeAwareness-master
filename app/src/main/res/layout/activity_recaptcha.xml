@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0"
+    tools:context=".recaptcha">
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="294dp"
+        android:layout_height="388dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/custom_border"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="171dp">
+
+
+        <ImageView
+            android:id="@+id/imageuser"
+            android:layout_width="171dp"
+            android:layout_height="135dp"
+            android:layout_above="@+id/checkBoxCB"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginBottom="-158dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/recaptcha" />
+
+        <CheckBox
+            android:id="@+id/checkBoxCB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="230dp"
+            android:text="I am not robot"
+            android:textSize="23dp"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

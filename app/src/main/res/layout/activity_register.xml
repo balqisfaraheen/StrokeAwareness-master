@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0"
+    android:layout_gravity="center"
+    tools:context=".register">
+
+    <RelativeLayout
+
+        android:id="@+id/childA"
+        android:layout_width="318dp"
+        android:layout_height="520dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="SIGN UP"
+                android:textColor="#08090A"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:hint="Fullname"
+                android:textSize="13sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:text="*Your username not more than 5"
+                android:textColor="#000000"
+                android:textSize="7sp" />
+
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="17"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="*Enter a valid email"
+                android:layout_marginStart="4dp"
+                android:textColor="#000000"
+                android:textSize="7sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/PasswordET"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:ems="11"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/ToggleTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="SHOW"
+                    android:textColor="#000000"
+                    android:textSize="9sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:text="*Password must be more than 6  any letter,at least 1 special character and 1 digit,no white spaces"
+                android:textColor="#000000"
+
+                android:textSize="7sp" />
+
+            <EditText
+                android:id="@+id/NoteToMyself"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Motivation and mission related health condition"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/checkBoxCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="I have read and agree to the Privacy Policy"
+                        android:textSize="10sp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:id="@+id/readTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="read"
+                        android:textColor="@color/design_default_color_primary_dark"
+                        android:textSize="12sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="177dp"
+                android:layout_height="37dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="SIGN UP"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="52dp"
+                android:text="Already have an Account?"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="82dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="20dp"
+                android:text="Log In Here!"
+                android:textColor="#F1B836"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="324dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:text="PLEASE READ THE TERMS AND CONDITIONS OF THIS AGREEMENT CAREFULLY, INCLUDING WITHOUT LIMITATION ANY LINKED TERMS AND CONDITIONS APPEARING OR REFERENCED BELOW, WHICH ARE HEREBY MADE PART OF THIS LICENSE AGREEMENT. BY USING THE LICENSED MATERIAL, YOU ARE AGREEING THAT YOU HAVE READ, AND THAT YOU AGREE TO COMPLY WITH AND TO BE BOUND BY THE TERMS AND CONDITIONS OF THIS AGREEMENT AND ALL APPLICABLE LAWS AND REGULATIONS IN THEIR ENTIRETY WITHOUT LIMITATION OR QUALIFICATION. IF YOU DO NOT AGREE TO BE BOUND BY THIS AGREEMENT, THEN YOU MAY NOT ACCESS OR OTHERWISE USE THE LICENSED MATERIAL. THIS AGREEMENT IS EFFECTIVE AS OF THE FIRST DATE THAT YOU USE THE LICENSED MATERIAL (“EFFECTIVE DATE”)."
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="242dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:text="Data Privacy Practice. All the data collected are used to calculate and no other reason. The data itself containing user privacy will not be exposed to anywhere without using user permission"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="245dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:text="Minimize Data Collection. Stroke Awareness Application team keep many effort to minimize user data collection. Unnecessary data will not be asked"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+        <TextView
+            android:layout_width="262dp"
+            android:layout_height="491dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:text="Data Security. All the password will not be exposed and have been save securely without anyone can read"
+            android:textColor="#000000"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>

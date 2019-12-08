@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Launch">
+
+
+    <RelativeLayout
+
+        android:id="@+id/childA"
+        android:layout_centerInParent="true"
+        android:layout_width="240dp"
+        android:layout_height="400dp"
+        android:background="@drawable/custom_border">
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:layout_below="@+id/textView4"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/textView10"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_below="@+id/editText3"/>
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_below="@+id/textView11"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="217dp"
+            android:layout_height="32dp"
+            android:layout_below="@+id/editText4"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button_colour"
+            android:text="Login" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView13"
+            android:layout_centerHorizontal="true"
+            android:text="Dont Have an Account?" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#F1B836"
+            android:text="Register Here!" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
